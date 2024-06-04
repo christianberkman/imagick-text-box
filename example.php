@@ -1,9 +1,9 @@
 <?php
 // Direct
-require __DIR__ .'/src/ImagickTextBox.php';
+//require __DIR__ .'/src/ImagickTextBox.php';
 
 // Composer
-//require __DIR__ .'/vendor/autoload.php';
+require __DIR__ .'/vendor/autoload.php';
 
 use ImagickTextBox\ImagickTextBox;
 
