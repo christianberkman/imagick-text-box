@@ -1,0 +1,20 @@
+{
+    "name": "christianberkman/imagick-text-box",
+    "description": "Add a simple text box to an image using PHP's Imagick Library",
+    "type": "library",
+    "require": {
+        "ext-imagick": "^3.6"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "ImagickTextBox\\ImagickTextBox\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Christian Berkman"
+        }
+    ],
+    "minimum-stability": "stable"
+}
