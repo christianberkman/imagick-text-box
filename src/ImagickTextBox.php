@@ -60,7 +60,7 @@ class ImagickTextBox{
      * @param integer|null $gravity
      * @return void
      */
-    public function draw(?int $gravity = null) {
+    public function draw(?int $gravity = null) : void {
         if(! empty($gravity) ) $this->gravity = $gravity;
         
         $this->queryMetrics();
