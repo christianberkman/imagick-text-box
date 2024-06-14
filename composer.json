@@ -3,7 +3,7 @@
     "description": "Add a simple text box to an image using PHP's Imagick Library",
     "type": "library",
     "require": {
-        "ext-imagick": "^3.6"
+        "ext-imagick": "*"
     },
     "license": "MIT",
     "autoload": {
